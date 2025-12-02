@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    background-color: aqua;
+}
