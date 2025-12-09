@@ -1,5 +1,13 @@
 body {
     background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    padding-top: 55px;
+}
+
+body.darkmode {
+    background-color: black;
+    color: white;
 }
 
 p {
@@ -7,6 +15,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.navbar{
-    background-color: aqua;
+.navbar {
+    background-color: rgba(255, 193, 149, 0.7);
+    background-image: linear-gradient(to top, rgba(255, 193, 149,0.25), rgba(255, 193, 149, 0.5), rgba(255, 193, 149, 0.75), rgba(255, 193, 149, 1));
 }
